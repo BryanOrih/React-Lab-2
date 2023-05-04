@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.Header img{
+  width: 10vh;
+  height: 10vh;
+}
+.pokemonContainer{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  justify-items: center;
+}
+.pokemonContainer> *{
+  text-align: center;
+}
